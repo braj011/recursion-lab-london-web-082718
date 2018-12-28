@@ -114,6 +114,11 @@ function maxOf(arr) {
 // }
 
 
+// FUNCTION TO SEE IF ARRAY INCLUDES A GIVEN ELEMENT
+
+
+
+
 
 
 
