@@ -116,6 +116,18 @@ function maxOf(arr) {
 
 // FUNCTION TO SEE IF ARRAY INCLUDES A GIVEN ELEMENT
 
+function includesNumber (arr, ele) {
+  if (!arr.length) {
+    return false 
+  }
+  if (arr[0] === ele) {
+    return true
+  } 
+  else {
+     return includesNumber(arr.slice(1), ele)
+  } 
+}
+
 
 
 
